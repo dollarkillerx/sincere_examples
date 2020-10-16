@@ -8,3 +8,9 @@ edition = "2018"
 
 [dependencies]
 sincere = "0.7.0-alpha.1"
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = true
