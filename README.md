@@ -20,7 +20,7 @@ Number of Errors:	0
 ```
 #### Gin
 ``` 
-~$ go-wrk -c 80 -d 5 http://127.0.0.1:8000/hello
+~$ go-wrk -c 80 -d 5 http://127.0.0.1:8001/hello
 Running 5s test @ http://127.0.0.1:8081/hello
   80 goroutine(s) running concurrently
 303182 requests in 4.936371019s, 32.09MB read
@@ -34,7 +34,7 @@ Number of Errors:	0
 
 #### Erguotou github.com/dollarkillerx/erguotou
 ``` 
-~$ go-wrk -c 80 -d 5 http://127.0.0.1:8000/hello
+~$ go-wrk -c 80 -d 5 http://127.0.0.1:8001/hello
 Running 5s test @ http://127.0.0.1:8081/hello
   80 goroutine(s) running concurrently
 419923 requests in 4.895925827s, 51.63MB read
